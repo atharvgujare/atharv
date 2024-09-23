@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(59, 59, 59);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(84, 84, 84);
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px 0 0 5px;   
+}
+.navlist{
+    display: flex;
+}
+.links{
+    display: inline;
+    text-decoration: none;
+    margin: 20px 40px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.links:hover{
+    display: inline;
+    text-decoration: none;
+    margin: 20px 40px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    text-shadow: 0 2px 5px black;
+
+}
+.searchbar{
+ margin-top: 15px;
+}
+.search{
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+   position: relative;
+   right: 100px;
+   border: none;
+}
+.banner{
+    width: 100%;
+    height: 460px;
+    
+}
+section{
+    background-color: rgb(59, 59, 59);
+    border: 1px solid rgb(59, 59, 59);
+    width: 100%;
+    height: 550px;
+    
+}
+.pheading{
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 29px;
+    margin-top: 10px;
+    text-shadow: -2px 1px 2px black;
+}
+.mainbox{
+   
+    background-color: rgb(108, 108, 108);
+    width: 100%;
+    height: 430px;
+    box-shadow: 0 0 20px 1px black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.productbox{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    height: 350px;
+    width: 305px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: arial;
+    box-shadow: 0 0 10px 1px black;
+}
+button{
+    width: 300px;
+    background-color: rgb(54, 53, 53);
+    color: white !important;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.a{
+    color: white;
+    font-size: 15px;
+}
+.a:hover{
+    color: white;
+    font-size: 17px; 
+    text-shadow: 0 0 3px black; 
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    
+    
+}
+.partners{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.fheading{
+margin-top: 0px;
+font-family: arial;
+color: white;
+}
+.hr1{
+    border-width: 1;
+    width: 90%;
+    margin:30px 0 0 5% ;
+    
+}
+.media{
+    margin: 20px 280px;
+    width: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 20px;
+}
+.ytvid{
+    margin: 50px 0 0 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+.abbox{
+    height: 100px;
+    width: 350px;
+    text-align: center;
+    margin: 70px 0 0 30px;
+    background-color: rgb(119, 119, 119);
+    color: white;
+    font-family: arial;
+    padding: 20px;  
+}
+.iphonelist{
+    height: auto;
+    background-color: rgb(99, 99, 99);
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.iphonebox{
+    height: auto;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 8px 2px black;
+    padding: 10px;
+    background-color: rgb(239, 243, 248);
+    margin-top: 40px;
+
+}
+.productimg{
+    height: 360px;
+    width: 290px;
+}
+.aboutbox{
+    text-align: center;
+    font-size: 30px;
+    font-family: arial;
+    text-shadow: -2px 2px 5px black;
+    color: white;
+}
+.info{
+    display: inline-block;
+    text-align: center;
+    height: 400px;
+    width: 750px;
+    color: white;
+    line-height: 20px;
+    font-family: arial;
+    margin: 30px 0 0 10px;
+}
+.infoimg{
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+    margin-left: 90px;
+    color: white;
+    text-align: center;
+    font-family: arial;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: rgb(122, 124, 125);
+    
+
+}
+.conbox{
+    width: 36%;
+    font-size: 18px;
+    box-shadow: 0 0 10px 1px black;
+    padding: 30px;
+    margin: 10px 30px;
+    display: inline-block;
+    height: 400px;
+}
+.formbox{
+    display: inline-block;
+    width: 46%;
+    height: auto;
+    box-shadow: 0 0 10px 1px black;
+    padding: 10px;
+    margin: 30px 0 30px 350px ;
+    text-align: center;
+    
+}
+.inp{
+    width: 260px;
+    height: 30px;
+}
+.inp1{
+    width: 530px;
+    height: 30px;
+    margin-top: 30px;
+}
+.inp2{
+    width: 530px;
+    height: 100px;
+    margin-top: 30px;
+}
+.desc{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgba(66, 66, 66, 0.598);
+}
+h3{
+    text-align: center;
+}
+.pbutton{
+    width: 300px;
+    background-color: rgb(54, 53, 53);
+    color: white !important;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+} 
+.flinks{
+    color: white;
+    /* text-align: center; */
+   width: 200px;
+   margin: 50px;
+   display: inline-block;
+   font-family: arial;
+}
+.aa{
+    color: white;
+    
+  
+}
+.p{
+    margin-top: 20px;
+}
+.l{
+    width: 400px;
+    height: 40px;
+    background-color: gray;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: arial;
+    color: white;
+}
+.abut{
+    
+  color: white;
+  font-size: 15px;
+margin-top: 130px;
+}
